@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-uf60cb427hat3ys25fo.mysql.rds.aliyuncs.com:3306/mall?characterEncoding=utf-8&useSSL=false
+    username: huidong
+    password: xhd!0707
+logging:
+  pattern:
+    console: "[%thread] %-5level %logger{36} - %msg%n"
+
+
